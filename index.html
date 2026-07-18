@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/idk/style.css" />
+    <title>idk</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="header">Random password generator </h1>
+      <input
+        type="number"
+        min="1"
+        placeholder="Enter your password length"
+        id="passwordLength"
+      />
+      <div id="checkbox">
+        <div class="1">
+          <input type="checkbox" name="password" id="includeLowercase" /><label
+            for="includeLowercase"
+            >include Lower case</label
+          >
+        </div>
+        <div class="2">
+          <input type="checkbox" name="password" id="includeUppercase" /><label
+            for="includeUppercase"
+            >include Upper case</label
+          >
+        </div>
+        <div class="3">
+          <input type="checkbox" name="password" id="includeNumbers" /><label
+            for="includeNumbers"
+            >include Numbers</label
+          >
+        </div>
+        <div class="4">
+          <input type="checkbox" name="password" id="includeSymbols" /><label
+            for="includeSymbols"
+            >include Symbols</label
+          >
+        </div>
+      </div>
+      <button id="submit">Submit</button>
+      <p id="result">Your Password Will be here</p>
+    </section>
+
+    <script src="/idk/script.js"></script>
+  </body>
+</html>
